@@ -16,4 +16,5 @@ if(isset($_POST['createrec'])){
     $sth = $con -> prepare($stmt);
     $sth-> execute();
 }
+header('Location: index.php');
 include "html/footer.html";
