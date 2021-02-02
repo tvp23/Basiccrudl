@@ -1,0 +1,33 @@
+#indexlandingpagewrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#indexlandingpage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.landingpageitems{
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.landingpageitems:hover{
+    background-color:#006adb;
+    transition: 0.5s;
+}
+.landingpageitemstitle{
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    font-size: 20px;
+    user-select: none;
+    text-decoration: none;
+}
